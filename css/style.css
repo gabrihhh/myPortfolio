@@ -35,6 +35,7 @@
   .header{
     transform: rotate(90deg);
     position: fixed;
+    left: 0vw;
   }
   .header>a{
     border: 1px solid var(--corSecundaria);
