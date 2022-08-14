@@ -200,6 +200,9 @@
     height: 40vh;
     margin: 10vh;
   }
+  marca{
+    opacity: 20%;
+  }
 }
 @media(max-width:760px){
   *{
@@ -235,8 +238,7 @@
     flex-wrap: wrap;
   }
   .header{
-    position: fixed;
-    left: 2vw;
+    margin-left: 2vw;
 
   }
   .header>a{
