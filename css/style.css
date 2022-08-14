@@ -81,6 +81,7 @@
     padding: 2vh 8vh;
     border: 3px solid var(--corSecundaria);
     color: #DC143C;
+    text-decoration: none;
   }
   .img-board>a:hover{
     background-color: var(--corSecundaria);
@@ -248,6 +249,10 @@
     margin: 5vw 1vw;
     padding: 2vw 3vw;
   }
+  .header>a:hover{
+    color: var(--corPrimaria);
+    background-color: var(--corSecundaria);
+  }
   .container-part{
     margin: 0vw 10vw;
     font-family: var(--fontMenor);
@@ -266,7 +271,11 @@
     padding: 2vh 8vw;
     border: 2px solid var(--corSecundaria);
     color: var(--corSecundaria);
-
+    text-decoration: none;
+  }
+  .img-board>a:hover{
+    color: var(--corPrimaria);
+    background-color: var(--corSecundaria);
   }
 
   .aboutme{
